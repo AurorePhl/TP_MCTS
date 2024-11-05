@@ -27,7 +27,7 @@ import java.util.PriorityQueue;
 import java.util.Set;
 
 /**
- * The class implements the Monte-Carlo Tree Search (MCTS) planner with pure random walks in pddl4j. 
+ * The class implements the Monte-Carlo Tree Search (MCTS) planner with pure random walks in pddl4j.  
  *
  * @author Laura DURET & Aurore PHILIPPE
  * @version 1.0 - 08/11/2024
@@ -134,7 +134,9 @@ public class PureRandomWalks extends AbstractPlanner {
      */
     @Override
     public Plan solve(final Problem problem) {
-    	StateSpaceSearch search = StateSpaceSearch.getInstance(SearchStrategy.Name.ASTAR,
+    	/*StateSpaceSearch search = StateSpaceSearch.getInstance(SearchStrategy.Name.MCTS,
+            this.getHeuristic(), this.getHeuristicWeight(), this.getTimeout());*/
+        StateSpaceSearch search = StateSpaceSearch.getInstance(SearchStrategy.Name.ASTAR,
             this.getHeuristic(), this.getHeuristicWeight(), this.getTimeout());
         LOGGER.info("* Starting MCTS pure random walks \n");
     	Plan plan = search.searchPlan(problem);

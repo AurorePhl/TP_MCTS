@@ -57,6 +57,10 @@ public interface SearchStrategy extends Serializable {
          * The hill climbing first search strategy.
          */
         HILL_CLIMBING,
+        /**
+         * The Monte-Carlo Tree search strategy. 
+         * */
+        MCTS,
     }
 
     /**
