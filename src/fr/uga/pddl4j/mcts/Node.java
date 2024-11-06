@@ -205,7 +205,7 @@ public final class Node extends State {
     /**
      * Calculate the UCT value and set the heuristic value.
      *
-     * @param c le paramètre d'exploration.
+     * @param c the exploration parameter.
      */
     public final double setHeuristic(final double c) {
         if (this.visits == 0) {
