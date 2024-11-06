@@ -29,6 +29,12 @@ import java.util.Set;
 /**
  * The class implements the Monte-Carlo Tree Search (MCTS) planner with pure random walks in pddl4j.  
  *
+ * Features of the Search Algorithm
+ * Selection: Choose the node to explore using the UCT heuristic.
+ * Expansion: Add new child nodes from the selected node.
+ * Simulation: Perform random simulations to estimate reward.
+ * Backpropagation: Update rewards and node visits on the return path.
+ * 
  * @author Laura DURET & Aurore PHILIPPE
  * @version 1.0 - 08/11/2024
  */
