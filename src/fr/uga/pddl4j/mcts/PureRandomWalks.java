@@ -134,10 +134,10 @@ public class PureRandomWalks extends AbstractPlanner {
      */
     @Override
     public Plan solve(final Problem problem) {
-    	/*StateSpaceSearch search = StateSpaceSearch.getInstance(SearchStrategy.Name.MCTS,
-            this.getHeuristic(), this.getHeuristicWeight(), this.getTimeout());*/
-        StateSpaceSearch search = StateSpaceSearch.getInstance(SearchStrategy.Name.ASTAR,
+    	StateSpaceSearch search = StateSpaceSearch.getInstance(SearchStrategy.Name.MCTS,
             this.getHeuristic(), this.getHeuristicWeight(), this.getTimeout());
+        /*StateSpaceSearch search = StateSpaceSearch.getInstance(SearchStrategy.Name.ASTAR,
+            this.getHeuristic(), this.getHeuristicWeight(), this.getTimeout());*/
         LOGGER.info("* Starting MCTS pure random walks \n");
     	Plan plan = search.searchPlan(problem);
     	if (plan != null) {
