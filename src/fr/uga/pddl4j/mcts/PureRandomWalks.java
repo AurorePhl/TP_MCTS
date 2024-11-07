@@ -50,6 +50,26 @@ public class PureRandomWalks extends AbstractPlanner {
     private static final Logger LOGGER = LogManager.getLogger(PureRandomWalks.class.getName());
 
     /**
+     * The HEURISTIC property used for planner configuration.
+     */
+    public static final String HEURISTIC_SETTING = "HEURISTIC";
+
+    /**
+     * The default value of the HEURISTIC property used for planner configuration.
+     */
+    public static final StateHeuristic.Name DEFAULT_HEURISTIC = StateHeuristic.Name.FAST_FORWARD;
+
+    /**
+     * The WEIGHT_HEURISTIC property used for planner configuration.
+     */
+    public static final String WEIGHT_HEURISTIC_SETTING = "WEIGHT_HEURISTIC";
+
+    /**
+     * The default value of the WEIGHT_HEURISTIC property used for planner configuration.
+     */
+    public static final double DEFAULT_WEIGHT_HEURISTIC = 1.0;
+
+    /**
      * The weight of the heuristic.
      */
     private double heuristicWeight;
@@ -58,6 +78,23 @@ public class PureRandomWalks extends AbstractPlanner {
      * The name of the heuristic used by the planner.
      */
     private StateHeuristic.Name heuristic;
+
+     /**
+     * Creates a new A* search planner with the default configuration.
+     */
+    public PureRandomWalks() {
+        this(PureRandomWalks.getDefaultConfiguration());
+    }
+
+    /**
+     * Creates a new A* search planner with a specified configuration.
+     *
+     * @param configuration the configuration of the planner.
+     */
+    public PureRandomWalks(final PlannerConfiguration configuration) {
+        super();
+        this.setConfiguration(configuration);
+    }
 
     /**
      * Implement the logic to check if the problem is supported.
@@ -111,6 +148,69 @@ public class PureRandomWalks extends AbstractPlanner {
     public final double getHeuristicWeight() {
         return this.heuristicWeight;
     }
+
+    /**
+     * Returns the configuration of the planner.
+     *
+     * @return the configuration of the planner.
+     */
+    @Override
+    public PlannerConfiguration getConfiguration() {
+        final PlannerConfiguration config = super.getConfiguration();
+        config.setProperty(ASP.HEURISTIC_SETTING, this.getHeuristic().toString());
+        config.setProperty(ASP.WEIGHT_HEURISTIC_SETTING, Double.toString(this.getHeuristicWeight()));
+        return config;
+    }
+
+    /**
+     * Sets the configuration of the planner. If a planner setting is not defined in
+     * the specified configuration, the setting is initialized with its default value.
+     *
+     * @param configuration the configuration to set.
+     */
+    @Override
+    public void setConfiguration(final PlannerConfiguration configuration) {
+        super.setConfiguration(configuration);
+        if (configuration.getProperty(ASP.WEIGHT_HEURISTIC_SETTING) == null) {
+            this.setHeuristicWeight(ASP.DEFAULT_WEIGHT_HEURISTIC);
+        } else {
+            this.setHeuristicWeight(Double.parseDouble(configuration.getProperty(
+                ASP.WEIGHT_HEURISTIC_SETTING)));
+        }
+        if (configuration.getProperty(ASP.HEURISTIC_SETTING) == null) {
+            this.setHeuristic(ASP.DEFAULT_HEURISTIC);
+        } else {
+            this.setHeuristic(StateHeuristic.Name.valueOf(configuration.getProperty(
+                ASP.HEURISTIC_SETTING)));
+        }
+    }
+
+    /**
+     * 
+     * @return the default arguments of the planner.
+     * @see PlannerConfiguration
+     */
+    public static PlannerConfiguration getDefaultConfiguration() {
+        PlannerConfiguration config = Planner.getDefaultConfiguration();
+        config.setProperty(ASP.HEURISTIC_SETTING, ASP.DEFAULT_HEURISTIC.toString());
+        config.setProperty(ASP.WEIGHT_HEURISTIC_SETTING,
+            Double.toString(ASP.DEFAULT_WEIGHT_HEURISTIC));
+        return config;
+    }
+
+    /**
+     * Checks the planner configuration and returns if the configuration is valid.
+     * A configuration is valid if (1) the domain and the problem files exist and
+     * can be read, (2) the timeout is greater than 0, (3) the weight of the
+     * heuristic is greater than 0 and (4) the heuristic is a not null.
+     *
+     * @return <code>true</code> if the configuration is valid <code>false</code> otherwise.
+     */
+    public boolean hasValidConfiguration() {
+        return super.hasValidConfiguration()
+            && this.getHeuristicWeight() > 0.0
+            && this.getHeuristic() != null;
+    
 
 
     /**
