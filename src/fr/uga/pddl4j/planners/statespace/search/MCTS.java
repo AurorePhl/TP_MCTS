@@ -22,7 +22,7 @@ import java.util.Objects;
 import java.util.PriorityQueue;
 
 /**
- * This class implements A* search strategy.
+ * This class implements Monte-Carlo tree search (MCTS) strategy with pure random walks.
  *
  * @author D. Pellier
  * @version 1.0 - 01.06.2018
