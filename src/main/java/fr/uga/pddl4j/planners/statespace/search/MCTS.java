@@ -71,7 +71,7 @@ public final class MCTS extends AbstractStateSpaceSearch {
         // The list stores the node ordered according to the A* (getFValue = g + h) function
         final PriorityQueue<Node> open = new PriorityQueue<>(100, new NodeComparator(currC));
         // Creates the root node of the tree search
-        final Node root = new Node(init, null, -1, 0, heuristic.estimate(init, codedProblem.getGoal()));
+        final Node root = new Node(init, null, -1, 0, 0, heuristic.estimate(init, codedProblem.getGoal()));
         // Adds the root to the list of pending nodes
         open.add(root);
         openSet.put(init, root);
@@ -151,4 +151,5 @@ public final class MCTS extends AbstractStateSpaceSearch {
         // return the search computed or null if no search was found
         return solution;
     }
+
 }

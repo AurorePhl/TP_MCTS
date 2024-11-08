@@ -74,6 +74,7 @@ public final class Node extends State {
         this.action = action;
         this.reward = 0.0;
         this.visits = 0;
+        this.cost = 0.0;
         this.heuristic = heuristic;
         this.depth = -1;
     }
@@ -94,6 +95,7 @@ public final class Node extends State {
         this.action = action;
         this.reward = 0.0;
         this.visits = 0;
+        this.cost = 0.0;
         this.depth = depth;
         this.heuristic = heuristic;
     }

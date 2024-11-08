@@ -26,6 +26,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Set;
+import java.util.Random;
 
 /**
  * The class implements the Monte-Carlo Tree Search (MCTS) planner with pure random walks in pddl4j.  
@@ -78,7 +79,7 @@ public class PureRandomWalks extends AbstractPlanner {
     /**
      * The default value of the NUM_WALK property used for planner configuration.
      * */
-    public static final int DEFAULT_NUM_WALK = 2000; 
+    public static final int DEFAULT_NUM_WALK = 1000; 
 
     /**
      * The LENGTH_WALK property used for planner configuration.
@@ -131,12 +132,29 @@ public class PureRandomWalks extends AbstractPlanner {
     }
 
     /**
-     * Sets the exploration parameter of the heuristic.
-     *
-     * @param c the exploration parameter of the heuristic.
+     * The number of walks.
      */
-    public final void setC(double c) {
-        this.c = c;
+    private int numWalks;
+
+    /** Returns the number of walks.
+     *
+     * @return the number of walks.
+     */
+    public final int getNumWalks() {
+        return this.numWalks;
+    }
+
+    /**
+     * The lenght of walks.
+     */
+    private int lengthWalks;
+
+    /** Returns the length of walks.
+     *
+     * @return the length of walks.
+     */
+    public final int getLengthWalks() {
+        return this.lengthWalks;
     }
 
      /**
@@ -184,6 +202,36 @@ public class PureRandomWalks extends AbstractPlanner {
     }
 
     /**
+     * Sets the number of walks.
+     *
+     * @param numWalks the number of walks. The number of walks must be greater than 0.
+     * @throws IllegalArgumentException if the number of walks is strictly less than 0.
+     */
+    @CommandLine.Option(names = {"-nw", "--numWalks"}, defaultValue = "1000",
+        paramLabel = "<numWalks>", description = "Set the numWalks parameter of the heuristic (preset 1000).")
+    public void setNumWalksParam(final int numWalks) {
+        if (numWalks <= 0) {
+            throw new IllegalArgumentException("numWalks <= 0");
+        }
+        this.numWalks = numWalks;
+    }
+
+    /**
+     * Sets the length of walks.
+     *
+     * @param lengthWalks the length of walks. The length of walks must be greater than 0.
+     * @throws IllegalArgumentException if the length of walks is strictly less than 0.
+     */
+    @CommandLine.Option(names = {"-lw", "--lengthWalks"}, defaultValue = "10",
+        paramLabel = "<lengthWalks>", description = "Set the lengthWalks parameter of the heuristic (preset 10).")
+    public void setLengthWalksParam(final int lengthWalks) {
+        if (lengthWalks <= 0) {
+            throw new IllegalArgumentException("lengthWalks <= 0");
+        }
+        this.lengthWalks = lengthWalks;
+    }
+
+    /**
      * Returns the name of the heuristic used by the planner to solve a planning problem.
      *
      * @return the name of the heuristic used by the planner to solve a planning problem.
@@ -203,6 +251,10 @@ public class PureRandomWalks extends AbstractPlanner {
         config.setProperty(PureRandomWalks.HEURISTIC_SETTING, PureRandomWalks.DEFAULT_HEURISTIC.toString());
         config.setProperty(PureRandomWalks.EXPLORATION_HEURISTIC_SETTING,
             Double.toString(PureRandomWalks.DEFAULT_EXPLORATION_HEURISTIC));
+        config.setProperty(PureRandomWalks.LENGTH_WALK_SETTING,
+            Integer.toString(PureRandomWalks.DEFAULT_LENGTH_WALK));
+        config.setProperty(PureRandomWalks.NUM_WALK_SETTING,
+            Integer.toString(PureRandomWalks.DEFAULT_NUM_WALK));
         return config;
     }
 
@@ -217,6 +269,10 @@ public class PureRandomWalks extends AbstractPlanner {
         config.setProperty(PureRandomWalks.HEURISTIC_SETTING, PureRandomWalks.DEFAULT_HEURISTIC.toString());
         config.setProperty(PureRandomWalks.EXPLORATION_HEURISTIC_SETTING,
             Double.toString(PureRandomWalks.DEFAULT_EXPLORATION_HEURISTIC));
+        config.setProperty(PureRandomWalks.LENGTH_WALK_SETTING,
+            Integer.toString(PureRandomWalks.DEFAULT_LENGTH_WALK));
+        config.setProperty(PureRandomWalks.NUM_WALK_SETTING,
+            Integer.toString(PureRandomWalks.DEFAULT_NUM_WALK));
         return config;
     }
 
@@ -230,9 +286,9 @@ public class PureRandomWalks extends AbstractPlanner {
     public void setConfiguration(final PlannerConfiguration configuration) {
         super.setConfiguration(configuration);
         if (configuration.getProperty(PureRandomWalks.EXPLORATION_HEURISTIC_SETTING) == null) {
-            this.setC(PureRandomWalks.DEFAULT_EXPLORATION_HEURISTIC);
+            this.setHeuristicExploration(PureRandomWalks.DEFAULT_EXPLORATION_HEURISTIC);
         } else {
-            this.setC(Double.parseDouble(configuration.getProperty(
+            this.setHeuristicExploration(Double.parseDouble(configuration.getProperty(
                 PureRandomWalks.EXPLORATION_HEURISTIC_SETTING)));
         }
         if (configuration.getProperty(PureRandomWalks.HEURISTIC_SETTING) == null) {
@@ -240,6 +296,16 @@ public class PureRandomWalks extends AbstractPlanner {
         } else {
             this.setHeuristic(StateHeuristic.Name.valueOf(configuration.getProperty(
                 PureRandomWalks.HEURISTIC_SETTING)));
+        }
+        if (configuration.getProperty(PureRandomWalks.NUM_WALK_SETTING) == null) {
+            this.setNumWalksParam(PureRandomWalks.DEFAULT_NUM_WALK);
+        } else {
+            this.setNumWalksParam(Integer.parseInt(String.valueOf(PureRandomWalks.DEFAULT_NUM_WALK)));
+        }
+        if (configuration.getProperty(PureRandomWalks.LENGTH_WALK_SETTING) == null) {
+            this.setLengthWalksParam(PureRandomWalks.DEFAULT_LENGTH_WALK);
+        } else {
+            this.setLengthWalksParam(Integer.parseInt(String.valueOf(PureRandomWalks.DEFAULT_LENGTH_WALK)));
         }
     }
 
@@ -301,10 +367,6 @@ public class PureRandomWalks extends AbstractPlanner {
      * Search a solution plan for a planning problem using an Monte-Carlo tree search strategy with pure random walks.
      * 
      * Features of the Search Algorithm
-     * Selection: Choose the node to explore using the UCT heuristic.
-     * Expansion: Add new child nodes from the selected node.
-     * Simulation: Perform random simulations to estimate reward.
-     * Backpropagation: Update rewards and node visits on the return path.
      *
      * @param problem the problem to solve.
      * @return a plan solution for the problem or null if there is no solution
@@ -315,6 +377,8 @@ public class PureRandomWalks extends AbstractPlanner {
         if (!this.isSupported(problem)) {
             throw new ProblemNotSupportedException("Problem not supported");
         }
+
+        // Selection: Choose the node to explore using the UCT heuristic.
 
         // First we create an instance of the heuristic to use to guide the search
         final StateHeuristic heuristic = StateHeuristic.getInstance(this.getHeuristic(), problem);
@@ -329,8 +393,8 @@ public class PureRandomWalks extends AbstractPlanner {
         final double currC = this.getC();
         final PriorityQueue<Node> open = new PriorityQueue<>(100, new Comparator<Node>() {
             public int compare(Node n1, Node n2) {
-                double f1 = n1.getHeuristic() + n1.calculateUCT(currC);
-                double f2 = n2.getHeuristic() + n2.calculateUCT(currC);
+                double f1 = n1.getHeuristic() + n1.calculateUCT(currC) + n1.getCost();
+                double f2 = n2.getHeuristic() + n2.calculateUCT(currC) + n2.getCost();
                 return Double.compare(f1, f2);
             }
         });
@@ -349,40 +413,59 @@ public class PureRandomWalks extends AbstractPlanner {
         // We start the search
         while (!open.isEmpty() && plan == null && time < timeout) {
 
+            // Expansion: Add new nodes from the selected node.
+
             // We pop the first node in the pending list open
             final Node current = open.poll();
             close.add(current);
 
+            Node exploredNode = null;
+
+            // Simulation: Perform random simulations to estimate reward.
+
+            double accumulatedReward = 0.0;
+
             // If the goal is satisfied in the current node then extract the search and return it
-            if (current.satisfy(problem.getGoal())) {
-                return this.extractPlan(current, problem);
-            } else { // Else we try to apply the actions of the problem to the current node
-                for (int i = 0; i < problem.getActions().size(); i++) {
-                    // We get the actions of the problem
-                    Action a = problem.getActions().get(i);
-                    // If the action is applicable in the current node
-                    if (a.isApplicable(current)) {
-                        Node next = new Node(current);
-                        // We apply the effect of the action
-                        final List<ConditionalEffect> effects = a.getConditionalEffects();
-                        for (ConditionalEffect ce : effects) {
-                            if (current.satisfy(ce.getCondition())) {
+
+            for(int i = 0; i < this.getNumWalks(); i++) {
+                Node next = new Node(current);
+                if (current.satisfy(problem.getGoal())) {
+                    return this.extractPlan(current, problem);
+                } else { // Else we try to apply the actions of the problem to the current node
+                    for (int j = 0; j < this.getLengthWalks(); j++) {
+                        Random random = new Random();
+                        int randomInt = random.nextInt(problem.getActions().size());
+                        Action a = problem.getActions().get(randomInt);
+                        if (a.isApplicable(current)) {
+                            exploredNode = next;
+                            accumulatedReward++;
+                            List<ConditionalEffect> effects = a.getConditionalEffects();
+                            for (ConditionalEffect ce : effects) {
+                                if (current.satisfy(ce.getCondition())) {
                                 next.apply(ce.getEffect());
+                                }
                             }
                         }
-                        // We set the new child node information
-                        final double g = current.getCost() + 1;
+                        double g = current.getCost() + 1;
                         if (!close.contains(next)) {
                             next.setCost(g);
                             next.setParent(current);
                             next.setAction(i);
                             next.setHeuristic(heuristic.estimate(next, problem.getGoal()));
                             open.add(next);
-                        }
-                    }
+                        } 
+                    } 
                 }
             }
 
+            // Backpropagation: Update rewards and node visits on the return path.
+
+            while(exploredNode != null){
+                exploredNode.incrementVisits();
+                exploredNode.addReward(accumulatedReward);
+                exploredNode = exploredNode.getParent();
+            }
+                
         }
 
         // Finally, we return the search computed or null if no search was found
