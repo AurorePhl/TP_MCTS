@@ -27,13 +27,12 @@ ASP :
 ```
 MCTS : 
 ```
-java -cp "build/classes;build/libs/pddl4j-4.0.0.jar" fr.uga.pddl4j.mcts.PureRandomWalks --help
+javac -d build/classes -cp build/libs/pddl4j-4.0.0.jar src\main\java\fr\uga\pddl4j\mcts\PureRandomWalks.java  src\main\java\fr\uga\pddl4j\mcts\Node.java
 ```
 
 ## Execute script
 ```
 python src/scripts/scriptDepots.py
-
 ```
 ---
 
