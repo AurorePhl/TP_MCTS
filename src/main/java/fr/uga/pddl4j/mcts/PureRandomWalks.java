@@ -22,6 +22,7 @@ import picocli.CommandLine;
 
 import java.util.Comparator;
 import java.util.HashSet;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Set;
@@ -120,6 +121,24 @@ public class PureRandomWalks extends AbstractPlanner {
      */
     private StateHeuristic.Name heuristic;
 
+    /**
+     * Returns the exploration parameter of the heuristic.
+     *
+     * @return the exploration parameter of the heuristic.
+     */
+    public final double getC() {
+        return this.c;
+    }
+
+    /**
+     * Sets the exploration parameter of the heuristic.
+     *
+     * @param c the exploration parameter of the heuristic.
+     */
+    public final void setC(double c) {
+        this.c = c;
+    }
+
      /**
      * Creates a new Monte-Carlo tree search planner with the default configuration.
      */
@@ -174,12 +193,17 @@ public class PureRandomWalks extends AbstractPlanner {
     }
 
     /**
-     * Returns the exploration parameter of the heuristic.
+     * This method return the default arguments of the planner.
      *
-     * @return the exploration parameter of the heuristic.
+     * @return the default arguments of the planner.
+     * @see PlannerConfiguration
      */
-    public final double getC() {
-        return this.c;
+    public static PlannerConfiguration getDefaultConfiguration() {
+        PlannerConfiguration config = Planner.getDefaultConfiguration();
+        config.setProperty(PureRandomWalks.HEURISTIC_SETTING, PureRandomWalks.DEFAULT_HEURISTIC.toString());
+        config.setProperty(PureRandomWalks.EXPLORATION_HEURISTIC_SETTING,
+            Double.toString(PureRandomWalks.DEFAULT_EXPLORATION_HEURISTIC));
+        return config;
     }
 
     /**
@@ -206,9 +230,9 @@ public class PureRandomWalks extends AbstractPlanner {
     public void setConfiguration(final PlannerConfiguration configuration) {
         super.setConfiguration(configuration);
         if (configuration.getProperty(PureRandomWalks.EXPLORATION_HEURISTIC_SETTING) == null) {
-            this.setHeuristicWeight(PureRandomWalks.DEFAULT_EXPLORATION_HEURISTIC);
+            this.setC(PureRandomWalks.DEFAULT_EXPLORATION_HEURISTIC);
         } else {
-            this.setHeuristicWeight(Double.parseDouble(configuration.getProperty(
+            this.setC(Double.parseDouble(configuration.getProperty(
                 PureRandomWalks.EXPLORATION_HEURISTIC_SETTING)));
         }
         if (configuration.getProperty(PureRandomWalks.HEURISTIC_SETTING) == null) {
@@ -259,7 +283,6 @@ public class PureRandomWalks extends AbstractPlanner {
     	StateSpaceSearch search = StateSpaceSearch.getInstance(SearchStrategy.Name.MCTS,
             this.getHeuristic(), this.getC(), this.getTimeout());
         LOGGER.info("* Starting MCTS pure random walks \n");
-    	Plan plan = search.searchPlan(problem);
         // Search a solution
         Plan plan = search.searchPlan(problem);
         // If a plan is found update the statistics of the planner
@@ -303,19 +326,17 @@ public class PureRandomWalks extends AbstractPlanner {
         final Set<Node> close = new HashSet<>();
 
         // We initialize the opened list to store the pending node according to function f
-        final double c = this.getC();
+        final double currC = this.getC();
         final PriorityQueue<Node> open = new PriorityQueue<>(100, new Comparator<Node>() {
             public int compare(Node n1, Node n2) {
-                n1.calculateUCT(c);
-                double f1 = n1.getHeuristic() + n1.getCost();
-                n2.calculateUCT(c);
-                double f2 = n2.getHeuristic() + n2.getCost();
+                double f1 = n1.getHeuristic() + n1.calculateUCT(currC);
+                double f2 = n2.getHeuristic() + n2.calculateUCT(currC);
                 return Double.compare(f1, f2);
             }
         });
 
         // We create the root node of the tree search
-        final Node root = new Node(init, null, null, -1, 0, heuristic.estimate(init, problem.getGoal()));
+        final Node root = new Node(init, null, -1, 0, heuristic.estimate(init, problem.getGoal()));
 
         // We add the root to the list of pending nodes
         open.add(root);
@@ -360,6 +381,7 @@ public class PureRandomWalks extends AbstractPlanner {
                         }
                     }
                 }
+            }
 
         }
 

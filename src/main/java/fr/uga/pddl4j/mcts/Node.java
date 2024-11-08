@@ -20,11 +20,6 @@ public final class Node extends State {
     private Node parent;
 
     /**
-     * The list of children nodes of this node.
-     */
-    private List<Node> children;
-
-    /**
      * The number of times this node has been visited.
      */
     private int visits;
@@ -70,14 +65,12 @@ public final class Node extends State {
      *
      * @param state     the logical state of the node.
      * @param parent    the parent node of the node.
-     * @param children  the list of children nodes of the current node
      * @param action    the action applied to reached the node from its parent.
      * @param heuristic the evaluation of random walk end-states.
      */
-    public Node(State state, Node parent, List<Node> children, int action, double heuristic) {
+    public Node(State state, Node parent, int action, double heuristic) {
         super(state);
         this.parent = parent;
-        this.children = children != null ? children : new ArrayList<>();
         this.action = action;
         this.reward = 0.0;
         this.visits = 0;
@@ -91,15 +84,13 @@ public final class Node extends State {
      *
      * @param state     the logical state of the node.
      * @param parent    the parent node of the node.
-     * @param children  the list of children nodes of the current node
      * @param action    the action applied to reached the node from its parent.
      * @param depth     the depth of the node.
      * @param heuristic the evaluation of random walk end-states.
      */
-    public Node(State state, Node parent, List<Node> children, int action, int depth, double heuristic) {
+    public Node(State state, Node parent, int action, int depth, double heuristic) {
         super(state);
         this.parent = parent;
-        this.children = children != null ? children : new ArrayList<>();
         this.action = action;
         this.reward = 0.0;
         this.visits = 0;
@@ -141,25 +132,6 @@ public final class Node extends State {
      */
     public final void setParent(Node parent) {
         this.parent = parent;
-    }
-
-    /**
-     * Returns the list of children nodes of the current node.
-     *
-     * @return the list of children nodes of the current node.
-     */
-    public final List<Node> getChildren() {
-        return this.children;
-    }
-
-    /**
-     * Add a child at the list of children nodes of the current node.
-     *
-     * @param child the child to add.
-     */
-    public final void addChild(Node child) {
-        child.setParent(this);
-        this.children.add(child);
     }
 
     /**
@@ -239,12 +211,13 @@ public final class Node extends State {
      *
      * @param c the exploration parameter.
      */
-    public final void calculateUCT(final double c) {
+    public final double calculateUCT(final double c) {
         if (this.visits == 0)
             return Double.MAX_VALUE; 
         double exploitation = this.reward / this.visits;
         double exploration = c * Math.sqrt(Math.log(this.parent.getVisits()) / this.visits);
         this.setCost(exploitation + exploration);
+        return this.getCost();
     }
 
     /**

@@ -20,6 +20,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 import java.util.PriorityQueue;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * This class implements Monte-Carlo tree search (MCTS) strategy with pure random walks.
@@ -65,12 +67,11 @@ public final class MCTS extends AbstractStateSpaceSearch {
         final Map<State, Node> closeSet = new HashMap<>();
         final Map<State, Node> openSet = new HashMap<>();
         // Initialize the opened list (store the pending node)
-        final double currC = getC();
+        final double currC = 1.0;
         // The list stores the node ordered according to the A* (getFValue = g + h) function
-        // final PriorityQueue<Node> open = new PriorityQueue<>(100, new NodeComparator(currWeight));
+        final PriorityQueue<Node> open = new PriorityQueue<>(100, new NodeComparator(currC));
         // Creates the root node of the tree search
-        // State state, Node parent, List<Node> children, int action, int depth, double heuristic
-        final Node root = new Node(init, null, null, -1, 0, heuristic.estimate(init, codedProblem.getGoal()));
+        final Node root = new Node(init, null, -1, 0, heuristic.estimate(init, codedProblem.getGoal()));
         // Adds the root to the list of pending nodes
         open.add(root);
         openSet.put(init, root);
