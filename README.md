@@ -6,7 +6,7 @@ Authors : DURET Laura et PHILIPPE Aurore
 
 ---
 
-## Run examples on windows cmd
+## Run MCTS examples 
 
 ```
 java -cp build/classes;build/libs/pddl4j-4.0.0.jar fr.uga.pddl4j.mcts.PureRandomWalks --help 
