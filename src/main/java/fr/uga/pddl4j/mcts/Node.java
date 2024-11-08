@@ -226,17 +226,25 @@ public final class Node extends State {
     }
 
     /**
-     * Calculate the UCT value and set the heuristic value.
+     * Sets the estimated distance to the goal from the node.
+     *
+     * @param estimates the estimated distance to the goal from the node to set.
+     */
+    public final void setHeuristic(double estimates) {
+        this.heuristic = estimates;
+    }
+
+    /**
+     * Calculate the UCT value and set the cost value.
      *
      * @param c the exploration parameter.
      */
-    public final double setHeuristic(final double c) {
+    public final void calculateUCT(final double c) {
         if (this.visits == 0)
             return Double.MAX_VALUE; 
         double exploitation = this.reward / this.visits;
         double exploration = c * Math.sqrt(Math.log(this.parent.getVisits()) / this.visits);
-        this.heuristic = exploitation + exploration;
-        return heuristic;
+        this.setCost(exploitation + exploration);
     }
 
     /**
