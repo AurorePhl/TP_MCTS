@@ -32,8 +32,6 @@ javac -d build/classes -cp build/libs/pddl4j-4.0.0.jar src\main\java\fr\uga\pddl
 
 ## Execute script  
 
-Before execution: modify directory paths in scripts  
-
 ```
 python src/scripts/scriptDepots.py
 ```
