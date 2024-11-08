@@ -24,13 +24,13 @@ import java.util.PriorityQueue;
 /**
  * This class implements Monte-Carlo tree search (MCTS) strategy with pure random walks.
  *
- * @author D. Pellier
- * @version 1.0 - 01.06.2018
+ * @author DURET Laura & PHILIPPE Aurore 
+ * @version 1.0 - 08/11/2024
  */
 public final class MCTS extends AbstractStateSpaceSearch {
 
     /**
-     * Creates a new AStar search strategy with default parameters.
+     * Creates a new Monte-Carlo tree search strategy with default parameters.
      *
      */
     public MCTS() {
@@ -38,14 +38,15 @@ public final class MCTS extends AbstractStateSpaceSearch {
     }
 
     /**
-     * Creates a new AStar search strategy.
+     * Creates a new Monte-Carlo tree search strategy.
      *
      * @param timeout   the time out of the planner.
      * @param heuristic the heuristic to use to solve the planning problem.
-     * @param weight    the weight set to the heuristic.
+     * @param exploration    the exploration parameter set to the heuristic.
+     * c : tester performance de l'algorithme pour c entre 0.5 et 2
      */
-    public MCTS(int timeout, StateHeuristic.Name heuristic, double weight) {
-        super(timeout, heuristic, weight);
+    public MCTS(int timeout, StateHeuristic.Name heuristic, double exploration) {
+        super(timeout, heuristic, exploration);
     }
 
     /**

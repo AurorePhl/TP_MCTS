@@ -60,19 +60,60 @@ public class PureRandomWalks extends AbstractPlanner {
     public static final StateHeuristic.Name DEFAULT_HEURISTIC = StateHeuristic.Name.FAST_FORWARD;
 
     /**
-     * The WEIGHT_HEURISTIC property used for planner configuration.
+     * The EXPLORATION_HEURISTIC property used for planner configuration.
      */
-    public static final String WEIGHT_HEURISTIC_SETTING = "WEIGHT_HEURISTIC";
+    public static final String EXPLORATION_HEURISTIC_SETTING = "EXPLORATION_HEURISTIC";
 
     /**
-     * The default value of the WEIGHT_HEURISTIC property used for planner configuration.
+     * The default value of the EXPLORATION_HEURISTIC property used for planner configuration.
      */
-    public static final double DEFAULT_WEIGHT_HEURISTIC = 1.0;
+    public static final double DEFAULT_EXPLORATION_HEURISTIC = 1.0;
 
     /**
-     * The weight of the heuristic.
+     * The NUM_WALK property used for planner configuration.
      */
-    private double heuristicWeight;
+    public static final String NUM_WALK_SETTING = "NUM_WALK";
+
+    /**
+     * The default value of the NUM_WALK property used for planner configuration.
+     * */
+    public static final int DEFAULT_NUM_WALK = 2000; 
+
+    /**
+     * The LENGTH_WALK property used for planner configuration.
+     */
+    public static final String LENGTH_WALK_SETTING = "LENGTH_WALK";
+
+    /**
+     * The default value of the LENGTH_WALK property used for planner configuration.
+     * */
+    public static final int DEFAULT_LENGTH_WALK = 10; 
+
+    /**
+     * The ALPHA property used for planner configuration.
+     */
+    public static final String ALPHA_SETTING = "ALPHA";
+
+    /**
+     * The default value of the ALPHA property used for planner configuration. 
+     * */
+    public static final double DEFAULT_ALPHA = 0.9;
+
+    /**
+     * The MAX_STEPS property used for planner configuration.
+     */
+    public static final String MAX_STEPS_SETTING = "MAX_STEPS";
+
+    /**
+     * The default value of the MAX_STEPS property used for planner configuration.
+     * */
+    private static final int DEAFULT_MAX_STEPS = 7; 
+
+
+    /**
+     * The exploration parameter of the heuristic.
+     */
+    private double c;
 
     /**
      * The name of the heuristic used by the planner.
@@ -105,18 +146,18 @@ public class PureRandomWalks extends AbstractPlanner {
     }
 
     /**
-     * Sets the weight of the heuristic.
+     * Sets the exploration parameter of the heuristic.
      *
-     * @param weight the weight of the heuristic. The weight must be greater than 0.
-     * @throws IllegalArgumentException if the weight is strictly less than 0.
+     * @param exploration the exploration parameter of the heuristic. The exploration parameter must be greater than 0.
+     * @throws IllegalArgumentException if the exploration parameter is strictly less than 0.
      */
-    @CommandLine.Option(names = {"-w", "--weight"}, defaultValue = "1.0",
-        paramLabel = "<weight>", description = "Set the weight of the heuristic (preset 1.0).")
-    public void setHeuristicWeight(final double weight) {
-        if (weight <= 0) {
-            throw new IllegalArgumentException("Weight <= 0");
+    @CommandLine.Option(names = {"-exploration", "--exploration"}, defaultValue = "1.0",
+        paramLabel = "<exploration>", description = "Set the exploration parameter of the heuristic (preset 1.0).")
+    public void setHeuristicExploration(final double exploration) {
+        if (exploration <= 0) {
+            throw new IllegalArgumentException("Exploration <= 0");
         }
-        this.heuristicWeight = weight;
+        this.c = exploration;
     }
 
     /**
@@ -141,12 +182,12 @@ public class PureRandomWalks extends AbstractPlanner {
     }
 
     /**
-     * Returns the weight of the heuristic.
+     * Returns the exploration parameter of the heuristic.
      *
-     * @return the weight of the heuristic.
+     * @return the exploration parameter of the heuristic.
      */
-    public final double getHeuristicWeight() {
-        return this.heuristicWeight;
+    public final double getC() {
+        return this.c;
     }
 
     /**
@@ -157,8 +198,8 @@ public class PureRandomWalks extends AbstractPlanner {
     @Override
     public PlannerConfiguration getConfiguration() {
         final PlannerConfiguration config = super.getConfiguration();
-        config.setProperty(ASP.HEURISTIC_SETTING, this.getHeuristic().toString());
-        config.setProperty(ASP.WEIGHT_HEURISTIC_SETTING, Double.toString(this.getHeuristicWeight()));
+        config.setProperty(PureRandomWalks.HEURISTIC_SETTING, this.getHeuristic().toString());
+        config.setProperty(PureRandomWalks.EXPLORATION_HEURISTIC_SETTING, Double.toString(this.getC()));
         return config;
     }
 
@@ -171,17 +212,17 @@ public class PureRandomWalks extends AbstractPlanner {
     @Override
     public void setConfiguration(final PlannerConfiguration configuration) {
         super.setConfiguration(configuration);
-        if (configuration.getProperty(ASP.WEIGHT_HEURISTIC_SETTING) == null) {
-            this.setHeuristicWeight(ASP.DEFAULT_WEIGHT_HEURISTIC);
+        if (configuration.getProperty(PureRandomWalks.EXPLORATION_HEURISTIC_SETTING) == null) {
+            this.setC(PureRandomWalks.DEFAULT_EXPLORATION_HEURISTIC);
         } else {
             this.setHeuristicWeight(Double.parseDouble(configuration.getProperty(
-                ASP.WEIGHT_HEURISTIC_SETTING)));
+                PureRandomWalks.EXPLORATION_HEURISTIC_SETTING)));
         }
-        if (configuration.getProperty(ASP.HEURISTIC_SETTING) == null) {
-            this.setHeuristic(ASP.DEFAULT_HEURISTIC);
+        if (configuration.getProperty(PureRandomWalks.HEURISTIC_SETTING) == null) {
+            this.setHeuristic(PureRandomWalks.DEFAULT_HEURISTIC);
         } else {
             this.setHeuristic(StateHeuristic.Name.valueOf(configuration.getProperty(
-                ASP.HEURISTIC_SETTING)));
+                PureRandomWalks.HEURISTIC_SETTING)));
         }
     }
 
@@ -192,23 +233,23 @@ public class PureRandomWalks extends AbstractPlanner {
      */
     public static PlannerConfiguration getDefaultConfiguration() {
         PlannerConfiguration config = Planner.getDefaultConfiguration();
-        config.setProperty(ASP.HEURISTIC_SETTING, ASP.DEFAULT_HEURISTIC.toString());
-        config.setProperty(ASP.WEIGHT_HEURISTIC_SETTING,
-            Double.toString(ASP.DEFAULT_WEIGHT_HEURISTIC));
+        config.setProperty(PureRandomWalks.HEURISTIC_SETTING, PureRandomWalks.DEFAULT_HEURISTIC.toString());
+        config.setProperty(PureRandomWalks.EXPLORATION_HEURISTIC_SETTING,
+            Double.toString(PureRandomWalks.DEFAULT_EXPLORATION_HEURISTIC));
         return config;
     }
 
     /**
      * Checks the planner configuration and returns if the configuration is valid.
      * A configuration is valid if (1) the domain and the problem files exist and
-     * can be read, (2) the timeout is greater than 0, (3) the weight of the
+     * can be read, (2) the timeout is greater than 0, (3) the exploration parameter of the
      * heuristic is greater than 0 and (4) the heuristic is a not null.
      *
      * @return <code>true</code> if the configuration is valid <code>false</code> otherwise.
      */
     public boolean hasValidConfiguration() {
         return super.hasValidConfiguration()
-            && this.getHeuristicWeight() > 0.0
+            && this.getC() > 0.0
             && this.getHeuristic() != null;
     
 
