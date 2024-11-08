@@ -1,0 +1,1502 @@
+
+UParser test: Test parser on src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p01.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p02.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p03.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p04.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p05.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p06.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p07.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p08.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p09.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p10.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p11.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p12.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p13.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p14.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p15.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p16.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p17.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p18.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p19.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+Parser test: [PASSED]
+F   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p20.pddl
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\domain.pddl
+
+XParser test: Test parser on src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p01.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p02.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p03.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p04.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p05.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p06.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p07.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p08.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p09.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p10.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p11.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p12.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p13.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p14.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p15.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p16.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p17.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p18.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p19.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+Parser test: [PASSED]
+I   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\p20.pddl
+L   * src/test/resources/benchmarks/pddl\ipc1998/gripper/strips\domain.pddl
+
+]Parser test: Test parser on src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p001.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p002.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p003.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p004.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p005.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p006.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p007.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p008.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p009.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p010.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p011.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p012.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p013.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p014.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p015.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p016.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p017.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p018.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p019.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p020.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p021.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p022.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p023.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p024.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p025.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p026.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p027.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p028.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p029.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p030.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p031.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p032.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p033.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p034.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p035.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p036.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p037.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p038.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p039.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p040.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p041.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p042.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p043.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p044.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p045.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p046.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p047.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p048.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p049.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p050.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p051.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p052.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p053.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p054.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p055.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p056.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p057.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p058.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p059.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p060.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p061.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p062.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p063.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p064.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p065.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p066.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p067.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p068.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p069.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p070.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p071.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p072.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p073.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p074.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p075.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p076.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p077.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p078.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p079.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p080.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p081.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p082.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p083.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p084.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p085.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p086.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p087.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p088.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p089.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p090.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p091.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p092.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p093.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p094.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p095.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p096.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p097.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p098.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p099.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p100.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p101.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+Parser test: [PASSED]
+O   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p102.pddl
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\domain.pddl
+
+_Parser test: Test parser on src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p001.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p002.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p003.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p004.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p005.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p006.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p007.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p008.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p009.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p010.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p011.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p012.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p013.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p014.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p015.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p016.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p017.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p018.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p019.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p020.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p021.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p022.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p023.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p024.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p025.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p026.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p027.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p028.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p029.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p030.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p031.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p032.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p033.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p034.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p035.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p036.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p037.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p038.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p039.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p040.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p041.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p042.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p043.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p044.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p045.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p046.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p047.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p048.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p049.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p050.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p051.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p052.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p053.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p054.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p055.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p056.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p057.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p058.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p059.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p060.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p061.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p062.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p063.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p064.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p065.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p066.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p067.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p068.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p069.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p070.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p071.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p072.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p073.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p074.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p075.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p076.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p077.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p078.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p079.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p080.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p081.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p082.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p083.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p084.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p085.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p086.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p087.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p088.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p089.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p090.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p091.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p092.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p093.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p094.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p095.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p096.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p097.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p098.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p099.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p100.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p101.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\p102.pddl
+S   * src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-untyped\domain.pddl
+
+`Parser test: Test parser on src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p01.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p02.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p03.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p04.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p05.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p06.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p07.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p08.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p09.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p10.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p11.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p12.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p13.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p14.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p15.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p16.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p17.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p18.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p19.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p20.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p21.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p22.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p23.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p24.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p25.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p26.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p27.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p28.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p29.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p30.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p31.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p32.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p33.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p34.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p35.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p36.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p37.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p38.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p39.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p40.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p41.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p42.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p43.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p44.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p45.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p46.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p47.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p48.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p49.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p50.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p51.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p52.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p53.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p54.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p55.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p56.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p57.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p58.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p59.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p60.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p61.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p62.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p63.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p64.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p65.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p66.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p67.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p68.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p69.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p70.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p71.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p72.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p73.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p74.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p75.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p76.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p77.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p78.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p79.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p80.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p81.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p82.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p83.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+Parser test: [PASSED]
+Q   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\p84.pddl
+T   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-typed\domain.pddl
+
+bParser test: Test parser on src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p01.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p02.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p03.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p04.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p05.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p06.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p07.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p08.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p09.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p10.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p11.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p12.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p13.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p14.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p15.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p16.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p17.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p18.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p19.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p20.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p21.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p22.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p23.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p24.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p25.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p26.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p27.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p28.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p29.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p30.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p31.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p32.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p33.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p34.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p35.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p36.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p37.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p38.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p39.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p40.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p41.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p42.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p43.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p44.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p45.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p46.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p47.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p48.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p49.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p50.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p51.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p52.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p53.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p54.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p55.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p56.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p57.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p58.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p59.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p60.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p61.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p62.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p63.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p64.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p65.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p66.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p67.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p68.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p69.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p70.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p71.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p72.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p73.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p74.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p75.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p76.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p77.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p78.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p79.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p80.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p81.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p82.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p83.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+Parser test: [PASSED]
+S   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\p84.pddl
+V   * src/test/resources/benchmarks/pddl\ipc2000/logistics/strips-untyped\domain.pddl
+;<
+;<LTest FF planner on src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p01.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p01.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<–# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+;<f# WARNING: Unable to attach Serviceability Agent. sun.jvm.hotspot.memory.Universe.getNarrowOopBase()
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p01.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p02.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p02.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p02.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p03.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p03.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p03.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p04.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p04.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p04.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p05.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p05.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p05.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p06.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p06.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p06.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p07.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p07.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p07.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p08.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p08.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p08.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p09.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p09.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p09.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p10.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p10.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p10.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p11.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p11.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p11.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p12.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p12.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p12.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p13.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p13.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p13.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p14.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p14.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p14.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p15.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p15.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p15.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p16.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p16.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p16.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p17.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p17.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p17.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p18.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p18.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p18.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p19.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p19.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p19.pddl
+;<
+;<V* Instantiation [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p20.pddl]...
+;<c* Trying to solve [src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p20.pddl] in 10 seconds
+;<F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;<** ENFORCED_HILL_CLIMBING search succeeded
+;<V* Solution found for src/test/resources/benchmarks/pddl\ipc1998/gripper/adl\p20.pddl
+;<
+ ;<˜java.io.IOException: Cannot run program "src/test/resources/validators/validate-win.exe": CreateProcess error=2, Le fichier spÃ©cifiÃ© est introuvable
+ ;<H	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1142)
+ ;<H	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+ ;<8	at java.base/java.lang.Runtime.exec(Runtime.java:590)
+ ;<8	at java.base/java.lang.Runtime.exec(Runtime.java:414)
+ ;<8	at java.base/java.lang.Runtime.exec(Runtime.java:311)
+ ;<@	at fr.uga.pddl4j.test.Tools.checkPlanValidity(Tools.java:320)
+ ;<4	at fr.uga.pddl4j.test.Tools.solve(Tools.java:281)
+ ;<`	at fr.uga.pddl4j.test.planners.statespace.FFTest.test_FF_IPC1998_Gripper_ADL(FFTest.java:108)
+ ;<T	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ ;<f	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+ ;<n	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ ;<@	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+ ;<Z	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+ ;<Y	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+ ;<X	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+ ;<W	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+ ;<S	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+ ;<F	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+ ;<Z	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+ ;<C	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+ ;<X	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+ ;<W	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+ ;<A	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+ ;<E	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+ ;<G	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+ ;<E	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+ ;<F	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+ ;<F	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+ ;<?	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+ ;<v	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+ ;<p	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+ ;<p	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+ ;<‹	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
+ ;<u	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
+ ;<T	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ ;<f	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+ ;<n	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ ;<@	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+ ;<Z	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+ ;<Z	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+ ;<j	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+ ;<y	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+ ;<D	at jdk.proxy1/jdk.proxy1.$Proxy4.processTestClass(Unknown Source)
+ ;<X	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
+ ;<o	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+ ;<Z	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+ ;<Y	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+ ;<k	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+ ;<ƒ	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+ ;<‚	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+ ;<^	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+ ;<_	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+ ;<^Caused by: java.io.IOException: CreateProcess error=2, Le fichier spÃ©cifiÃ© est introuvable
+ ;<;	at java.base/java.lang.ProcessImpl.create(Native Method)
+ ;<B	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:492)
+ ;<A	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+ ;<H	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1109)
+ ;<	... 51 more
+;@
+;@TTest FF planner on src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\
+;@_* Instantiation [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p001.pddl]...
+;@l* Trying to solve [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p001.pddl] in 10 seconds
+;@F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;@** ENFORCED_HILL_CLIMBING search succeeded
+;@_* Solution found for src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p001.pddl
+;@
+;@_* Instantiation [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p002.pddl]...
+;@l* Trying to solve [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p002.pddl] in 10 seconds
+;@F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;@** ENFORCED_HILL_CLIMBING search succeeded
+;@_* Solution found for src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p002.pddl
+;@
+;@_* Instantiation [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p003.pddl]...
+;@l* Trying to solve [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p003.pddl] in 10 seconds
+;@F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;@** ENFORCED_HILL_CLIMBING search succeeded
+;@_* Solution found for src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p003.pddl
+;@
+;@_* Instantiation [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p004.pddl]...
+;@l* Trying to solve [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p004.pddl] in 10 seconds
+;@F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;@** ENFORCED_HILL_CLIMBING search succeeded
+;@_* Solution found for src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p004.pddl
+;@
+;@_* Instantiation [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p005.pddl]...
+;@l* Trying to solve [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p005.pddl] in 10 seconds
+;@F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;@** ENFORCED_HILL_CLIMBING search succeeded
+;@_* Solution found for src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p005.pddl
+;@
+;@_* Instantiation [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p006.pddl]...
+;@l* Trying to solve [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p006.pddl] in 10 seconds
+;@F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;@** ENFORCED_HILL_CLIMBING search succeeded
+;@_* Solution found for src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p006.pddl
+;@
+;@_* Instantiation [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p007.pddl]...
+;@l* Trying to solve [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p007.pddl] in 10 seconds
+;@F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;@** ENFORCED_HILL_CLIMBING search succeeded
+;@_* Solution found for src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p007.pddl
+;@
+;@_* Instantiation [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p008.pddl]...
+;@l* Trying to solve [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p008.pddl] in 10 seconds
+;@F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;@** ENFORCED_HILL_CLIMBING search succeeded
+;@_* Solution found for src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p008.pddl
+;@
+;@_* Instantiation [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p009.pddl]...
+;@l* Trying to solve [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p009.pddl] in 10 seconds
+;@F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;@** ENFORCED_HILL_CLIMBING search succeeded
+;@_* Solution found for src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p009.pddl
+;@
+;@_* Instantiation [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p010.pddl]...
+;@l* Trying to solve [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p010.pddl] in 10 seconds
+;@F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;@** ENFORCED_HILL_CLIMBING search succeeded
+;@_* Solution found for src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p010.pddl
+;@
+;@_* Instantiation [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p011.pddl]...
+;@l* Trying to solve [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p011.pddl] in 10 seconds
+;@F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
+;@** ENFORCED_HILL_CLIMBING search succeeded
+;@_* Solution found for src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p011.pddl
+;@
+;@_* Instantiation [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p012.pddl]...
+;@l* Trying to solve [src/test/resources/benchmarks/pddl\ipc2000/blocks/strips-typed\p012.pddl] in 10 seconds
+;@F* Starting ENFORCED_HILL_CLIMBING search with FAST_FORWARD heuristic 
