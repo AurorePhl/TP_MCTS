@@ -32,6 +32,18 @@ MCTS - Temps d'exécution pour p005.pddl: 5453.75 ms
 MCTS - Taille du plan pour p005.pddl: 13 actions
 ```
 
+## Logistics
+```
+ASP - Temps d'exécution pour p01.pddl: 13453.41 ms
+ASP - Taille du plan pour p01.pddl: 25 actions
+MCTS - Temps d'exécution pour p01.pddl: 14852.68 ms
+MCTS - Taille du plan pour p01.pddl: 0 actions
+ASP - Temps d'exécution pour p05.pddl: 19409.60 ms
+ASP - Taille du plan pour p05.pddl: 21 actions
+MCTS - Temps d'exécution pour p05.pddl: 18273.10 ms
+MCTS - Taille du plan pour p05.pddl: 0 actions
+```
+
 ## Run MCTS examples 
 
 ```
