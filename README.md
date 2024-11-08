@@ -19,7 +19,7 @@ src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/p01.pddl
 ```
 # Run scripts 
 
-## Verifie planners
+## Verify planners
 
 ASP : 
 ```
