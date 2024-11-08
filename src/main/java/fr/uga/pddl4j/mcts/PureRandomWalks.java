@@ -143,7 +143,7 @@ public class PureRandomWalks extends AbstractPlanner {
      * @param exploration the exploration parameter of the heuristic. The exploration parameter must be greater than 0.
      * @throws IllegalArgumentException if the exploration parameter is strictly less than 0.
      */
-    @CommandLine.Option(names = {"-exploration", "--exploration"}, defaultValue = "1.0",
+    @CommandLine.Option(names = {"-c", "--exploration"}, defaultValue = "1.0",
         paramLabel = "<exploration>", description = "Set the exploration parameter of the heuristic (preset 1.0).")
     public void setHeuristicExploration(final double exploration) {
         if (exploration <= 0) {
