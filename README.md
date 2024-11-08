@@ -22,15 +22,15 @@ src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/p01.pddl ^
 ```
 # Run scripts 
 
-## Compile planners
+## Verifie planners
 
 ASP : 
 ```
- javac -d classes -cp lib/pddl4j-4.0.0.jar src/fr/uga/pddl4j/examples/asp/ASP.java src/fr/uga/pddl4j/examples/asp/Node.java
+ javac -d build/classes -cp build/libs/pddl4j-4.0.0.jar src\main\java\fr\uga\pddl4j\examples\asp\ASP.java  src\main\java\fr\uga\pddl4j\examples\asp\Node.java 
 ```
 MCTS : 
 ```
- javac -d classes -cp lib/pddl4j-4.0.0.jar `  src/fr/uga/pddl4j/mcts/Node.java `    src/fr/uga/pddl4j/mcts/PureRandomWalks.java
+java -cp "build/classes;build/libs/pddl4j-4.0.0.jar" fr.uga.pddl4j.mcts.PureRandomWalks --help
 ```
 
 ## Execute script
