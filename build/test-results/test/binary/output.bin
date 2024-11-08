@@ -6640,21 +6640,6 @@ H   * src/test/resources/benchmarks/hddl\ipc2020/umtranslog\domain.hddl
 #$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p03.val
 #$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p04.val
 #$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p05.val
-#$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p06.val
-#$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p07.val
-#$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p08.val
-#$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p09.val
-#$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p10.val
-#$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p11.val
-#$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p12.val
-#$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p13.val
-#$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p14.val
-#$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p15.val
-#$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p16.val
-#$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p17.val
-#$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p18.val
-#$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p19.val
-#$HDeleting src/test/resources/benchmarks/hddl\ipc2020/childsnack\p20.val
 #$
 #$LTest PFD planner on src/test/resources/benchmarks/hddl\ipc2020/childsnack\
 #$U* Instantiation [src/test/resources/benchmarks/hddl\ipc2020/childsnack\p01.hddl]...
