@@ -20,6 +20,18 @@ MCTS - Temps d'exécution pour p02.pddl: 8583.88 ms
 MCTS - Taille du plan pour p02.pddl: 20 actions
 ```
 
+## Blocks
+```
+ASP - Temps d'exécution pour p001.pddl: 5405.38 ms
+ASP - Taille du plan pour p001.pddl: 6 actions
+MCTS - Temps d'exécution pour p001.pddl: 4714.31 ms
+MCTS - Taille du plan pour p001.pddl: 7 actions
+ASP - Temps d'exécution pour p005.pddl: 4965.99 ms
+ASP - Taille du plan pour p005.pddl: 10 actions
+MCTS - Temps d'exécution pour p005.pddl: 5453.75 ms
+MCTS - Taille du plan pour p005.pddl: 13 actions
+```
+
 ## Run MCTS examples 
 
 ```
