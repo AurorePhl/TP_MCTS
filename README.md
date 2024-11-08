@@ -20,9 +20,9 @@ src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/p01.pddl ^
 -w 1.2 ^
 -t 1000
 ```
-## Run scripts 
+# Run scripts 
 
-# Compile planners
+## Compile planners
 
 APS : 
 ```
@@ -33,7 +33,7 @@ MCTS :
  javac -d classes -cp lib/pddl4j-4.0.0.jar `  src/fr/uga/pddl4j/mcts/Node.java `    src/fr/uga/pddl4j/mcts/PureRandomWalks.java
 ```
 
-# Execute script
+## Execute script
 ```
 python src/scripts/scriptDepots.py
 
