@@ -30,11 +30,14 @@ MCTS :
 javac -d build/classes -cp build/libs/pddl4j-4.0.0.jar src\main\java\fr\uga\pddl4j\mcts\PureRandomWalks.java  src\main\java\fr\uga\pddl4j\mcts\Node.java
 ```
 
-## Execute script
+## Execute script  
+
+Before execution: modify directory paths in scripts  
+
 ```
 python src/scripts/scriptDepots.py
 ```
 ---
 
 ## Folder contents
-Please find the java scripts for our planner in the “mcts” folder, the analysis scripts, i.e. for comparison and visualization, in the “analysis” folder, our report in the “doc” folder and the figures used in our report in the “figs” folder. 
+Please find the java scripts for our planner in the “mcts” folder, the analysis scripts, i.e. for comparison and visualization, in the “scripts” folder, our report in the “doc” folder and the figures used in our report in the “figs” folder. 
