@@ -9,11 +9,11 @@ Authors : DURET Laura et PHILIPPE Aurore
 ## Run examples on windows cmd
 
 ```
-java -cp classes;lib/pddl4j-4.0.0.jar fr.uga.pddl4j.mcts.PureRandomWalks --help 
+java -cp build/classes;build/libs/pddl4j-4.0.0.jar fr.uga.pddl4j.mcts.PureRandomWalks --help 
 ```
 
 ```
-java -cp classes;lib/pddl4j-4.0.0.jar fr.uga.pddl4j.mcts.PureRandomWalks ^
+java -cp build/classes;build/libs/pddl4j-4.0.0.jar fr.uga.pddl4j.mcts.PureRandomWalks ^
 src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/domain.pddl ^
 src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/p01.pddl ^
 -e FAST_FORWARD ^
