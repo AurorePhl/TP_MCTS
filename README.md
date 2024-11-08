@@ -16,7 +16,7 @@ MCTS - Taille du plan pour p01.pddl: 11 actions
 ASP - Temps d'exécution pour p02.pddl: 8859.37 ms
 ASP - Taille du plan pour p02.pddl: 15 actions
 MCTS - Temps d'exécution pour p02.pddl: 8583.88 ms
-MCTS - Taille du plan pour p02.pddl: 20 actions ```
+MCTS - Taille du plan pour p02.pddl: 20 actions```
 
 
 ## Run MCTS examples 
