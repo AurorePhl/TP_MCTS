@@ -56,7 +56,7 @@ MCTS - Temps d'exécution pour p05.pddl: 18273.10 ms
 MCTS - Taille du plan pour p05.pddl: 0 actions
 ```
 
-## Run MCTS examples 
+# Run MCTS examples 
 
 ```
 java -cp build/classes;build/libs/pddl4j-4.0.0.jar fr.uga.pddl4j.mcts.PureRandomWalks --help 
@@ -85,6 +85,24 @@ javac -d build/classes -cp build/libs/pddl4j-4.0.0.jar src\main\java\fr\uga\pddl
 ```
 python src/scripts/scriptDepots.py
 ```
+
+# Some exemples 
+
+## MCTS with depots
+```
+java -cp "build/classes;build/libs/pddl4j-4.0.0.jar" fr.uga.pddl4j.mcts.PureRandomWalks -t 600 -e FAST_FORWARD -c 1.0 -l INFO src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/domain.pddl src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/p01.pddl
+```
+
+## MCTS with depots
+```
+java -cp "build/classes;build/libs/pddl4j-4.0.0.jar" fr.uga.pddl4j.mcts.PureRandomWalks src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/domain.pddl  src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/p01.pddl
+```
+## ASP with depots 
+```
+java -cp "build/classes;build/libs/pddl4j-4.0.0.jar" fr.uga.pddl4j.examples.asp.ASP src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/domain.pddl src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/p01.pddl -e FAST_FORWARD -w 1.2 -t 1000
+```
+
+
 ---
 
 ## Folder contents
