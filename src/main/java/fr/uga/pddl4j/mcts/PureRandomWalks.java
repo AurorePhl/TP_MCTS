@@ -46,7 +46,7 @@ import java.util.Random;
     optionListHeading = "%nOptions:%n")
 public class PureRandomWalks extends AbstractPlanner {
 
-	/**
+    /**
      * The class logger.
      */
     private static final Logger LOGGER = LogManager.getLogger(PureRandomWalks.class.getName());
@@ -79,7 +79,7 @@ public class PureRandomWalks extends AbstractPlanner {
     /**
      * The default value of the NUM_WALK property used for planner configuration.
      * */
-    public static final int DEFAULT_NUM_WALK = 1000; 
+    public static final int DEFAULT_NUM_WALK = 50; 
 
     /**
      * The LENGTH_WALK property used for planner configuration.
@@ -207,8 +207,8 @@ public class PureRandomWalks extends AbstractPlanner {
      * @param numWalks the number of walks. The number of walks must be greater than 0.
      * @throws IllegalArgumentException if the number of walks is strictly less than 0.
      */
-    @CommandLine.Option(names = {"-nw", "--numWalks"}, defaultValue = "1000",
-        paramLabel = "<numWalks>", description = "Set the numWalks parameter of the heuristic (preset 1000).")
+    @CommandLine.Option(names = {"-nw", "--numWalks"}, defaultValue = "50",
+        paramLabel = "<numWalks>", description = "Set the numWalks parameter of the heuristic (preset 50).")
     public void setNumWalksParam(final int numWalks) {
         if (numWalks <= 0) {
             throw new IllegalArgumentException("numWalks <= 0");
@@ -321,7 +321,9 @@ public class PureRandomWalks extends AbstractPlanner {
     public boolean hasValidConfiguration() {
         return super.hasValidConfiguration()
             && this.getC() > 0.0
-            && this.getHeuristic() != null;
+            && this.getHeuristic() != null
+            && this.getNumWalks() > 0 
+            && this.getLengthWalks() > 0 ;
     }
 
 
@@ -343,24 +345,31 @@ public class PureRandomWalks extends AbstractPlanner {
      *
      * @param problem the problem to solve.
      * @return the plan found or null if no plan was found.
+     * @throws ProblemNotSupportedException if the problem to solve is not supported by the planner.
      */
     @Override
-    public Plan solve(final Problem problem) {
-    	StateSpaceSearch search = StateSpaceSearch.getInstance(SearchStrategy.Name.MCTS,
+    public Plan solve(final Problem problem) throws ProblemNotSupportedException {
+        /** 
+         * StateSpaceSearch search = StateSpaceSearch.getInstance(SearchStrategy.Name.MCTS,
             this.getHeuristic(), this.getC(), this.getTimeout());
-        LOGGER.info("* Starting MCTS pure random walks \n");
+         * Plan plan = search.searchPlan(problem); 
+         * */
+       
+       LOGGER.info("* Starting MCTS pure random walks \n");
         // Search a solution
-        Plan plan = search.searchPlan(problem);
+        final long begin = System.currentTimeMillis();
+        final Plan plan = this.mcts(problem);
+        final long end = System.currentTimeMillis();
         // If a plan is found update the statistics of the planner
-    	if (plan != null) {
+        // and log search information
+        if (plan != null) {
             LOGGER.info("* MCTS pure random walks succeeded\n");
-            this.getStatistics().setTimeToSearch(search.getSearchingTime());
-            this.getStatistics().setMemoryUsedToSearch(search.getMemoryUsed());
+            this.getStatistics().setTimeToSearch(end - begin);
         } else {
             LOGGER.info("* MCTS pure random walks failed\n");
         }
         // Return the plan found or null if the search fails.
-    	return plan;
+        return plan;
     }
 
     /**
@@ -410,14 +419,20 @@ public class PureRandomWalks extends AbstractPlanner {
         final int timeout = this.getTimeout() * 1000;
         long time = 0;
 
+        int counter = 0;
+
         // We start the search
-        while (!open.isEmpty() && plan == null && time < timeout) {
+        while (!open.isEmpty() && plan == null && time < timeout && counter < this.getNumWalks() ) {
 
             // Expansion: Add new nodes from the selected node.
 
             // We pop the first node in the pending list open
             final Node current = open.poll();
             close.add(current);
+
+            double hmin = current.getHeuristic() + current.calculateUCT(currC);
+
+            double hExploredNode = hmin;
 
             Node exploredNode = null;
 
@@ -437,8 +452,6 @@ public class PureRandomWalks extends AbstractPlanner {
                         int randomInt = random.nextInt(problem.getActions().size());
                         Action a = problem.getActions().get(randomInt);
                         if (a.isApplicable(current)) {
-                            exploredNode = next;
-                            accumulatedReward++;
                             List<ConditionalEffect> effects = a.getConditionalEffects();
                             for (ConditionalEffect ce : effects) {
                                 if (current.satisfy(ce.getCondition())) {
@@ -448,6 +461,8 @@ public class PureRandomWalks extends AbstractPlanner {
                         }
                         double g = current.getCost() + 1;
                         if (!close.contains(next)) {
+                            accumulatedReward++;
+                            next.incrementVisits();
                             next.setCost(g);
                             next.setParent(current);
                             next.setAction(i);
@@ -456,15 +471,31 @@ public class PureRandomWalks extends AbstractPlanner {
                         } 
                     } 
                 }
+                double h = next.getHeuristic() + next.calculateUCT(currC);
+                if(h < hmin){
+                    exploredNode = next; 
+                    hExploredNode = h;
+                    hmin = h;
+                }
+                if(exploredNode == null){
+                    exploredNode = current;
+                }
             }
 
             // Backpropagation: Update rewards and node visits on the return path.
 
             while(exploredNode != null){
-                exploredNode.incrementVisits();
                 exploredNode.addReward(accumulatedReward);
                 exploredNode = exploredNode.getParent();
             }
+            
+            if(hExploredNode < hmin) {
+                hmin = hExploredNode;
+                counter = 0;
+            } else {
+                counter ++;
+            }
+
                 
         }
 
