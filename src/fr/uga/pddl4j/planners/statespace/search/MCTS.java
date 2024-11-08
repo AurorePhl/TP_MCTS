@@ -42,11 +42,10 @@ public final class MCTS extends AbstractStateSpaceSearch {
      *
      * @param timeout   the time out of the planner.
      * @param heuristic the heuristic to use to solve the planning problem.
-     * @param exploration    the exploration parameter set to the heuristic.
      * c : tester performance de l'algorithme pour c entre 0.5 et 2
      */
-    public MCTS(int timeout, StateHeuristic.Name heuristic, double exploration) {
-        super(timeout, heuristic, exploration);
+    public MCTS(int timeout, StateHeuristic.Name heuristic) {
+        super(timeout, heuristic);
     }
 
     /**

@@ -248,8 +248,7 @@ public interface StateSpaceSearch extends SearchStrategy {
             case HILL_CLIMBING:
                 return new HillClimbing(timeout, heuristic, weight);
             case MCTS:
-                // weight ~ exploration parameter
-                return new MCTS(timeout, heuristic, weight);
+                return new MCTS(timeout, heuristic);
             default:
                 return null;
         }
